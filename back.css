@@ -1,0 +1,112 @@
+body {
+    background-color: #6cc5ad;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-image: url("minecraft_background.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #212121;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 72px;
+    display: inline-block;
+    color: #fff;
+  }
+  
+  nav {
+    display: inline-block;
+    float: right;
+    margin-top: 10px;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: darkgreen;
+    border-bottom: 2px solid darkgreen;
+    padding-bottom: 3px;
+  }
+  
+  main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: darkgreen;
+  }
+  
+  article a {
+    display: block;
+    width: 100px;
+    padding: 8px 16px;
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 20px 0;
+  }
+  
+  article a:hover {
+    background-color: #3c763d;
+  }
+  
+  .rating {
+    display: inline-block;
+  }
+  
+  .rating input {
+    display: none;
+  }
+  
+  .rating label {
+    font-size: 32px;
+    color: #ccc;
+    cursor: pointer;
+  }
+  
+  .rating label:hover,
+  .rating label:hover ~ label,
+  .rating input:checked ~ label {
+    color: #f2b600;
+  }
+  
+  .rating label:hover,
+  .rating label:hover ~ label {
+    text-shadow: 0 0 2px #f2b600;
+  }
+  
